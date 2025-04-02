@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+@theme {
+  --color-primary: #ea1717;
+  --color-primary-text: #fff;
+}
+
 .container {
   max-width: 1256px;
   margin: 0 auto;
