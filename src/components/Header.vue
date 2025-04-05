@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-primary h-[172px]">
+  <div class="bg-main h-[172px]">
     <div class="bg-[#9e1d1d] h-[37px]">
       <div class="container h-full flex justify-between items-center">
         <div class="flex text-primary-text text-sm">
@@ -25,12 +25,21 @@
       <img src="/images/c2aeb346-6b77-4a0b-bc96-f41e3d1be76d.gif" alt="" class="w-[142px] h-[60px]">
       <div class="px-7.5">
         <form class="flex items-center bg-[#fff] rounded-lg w-[540px] h-[45px]">
-          <div>全站</div>
-          <div></div>
-          <div>
-            <button class="bg-primary text-primary-text rounded-lg">搜尋</button>
+          <button class="basis-[50px] bg-[#969696] text-primary-text !ml-2 !text-sm">全站</button>
+          <div class="flex-1">
+            <input type="text" placeholder="5070ti">
           </div>
+          <button class="basis-[32px] bg-main text-primary-text !rounded-lg w-[32px] h-[32px] !mr-1">
+            <i data-feather="search" class="w-[15px] h-[15px] stroke-3 stroke-[#fff] mx-auto"></i>
+          </button>
         </form>
+        <div class="!text-xs mt-1.5 flex gap-3">
+          <a class="!text-primary-text !no-underline cursor-pointer">電競耳機</a>
+          <a class="!text-primary-text !no-underline cursor-pointer">行車記錄器</a>
+          <a class="!text-primary-text !no-underline cursor-pointer">行動電源</a>
+          <a class="!text-primary-text !no-underline cursor-pointer">除濕機</a>
+          <a class="!text-primary-text !no-underline cursor-pointer">筆電</a>
+        </div>
       </div>
     </div>
 
